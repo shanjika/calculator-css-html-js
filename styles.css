@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://png.pngtree.com/background/20230520/original/pngtree-red-and-black-cube-images-for-desktop-pc-picture-image_2673141.jpg');
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background-color: #c8ccd7;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #112a85;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background-color: #070b0f;
+    color: rgb(241, 233, 233);
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b4063d;
+}
+
+button:active {
+    background-color: #004085;
+}
